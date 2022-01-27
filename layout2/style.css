@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+header, footer{
+    height:100px;
+    clear: both;
+    border: 3px solid gray;
+}
+
+section{
+    width: 100%;
+    float: left;
+    border: 3px solid gray;
+    height: 150px;
+}
+
+article{
+    width: 40%;
+    float: left;
+    border: 3px solid gray;
+    height: 200px
+}
+
+article + article{
+    width: 60%;
+    float: left;
+    border: 3px solid gray;
+    height: 200px
+
+}
